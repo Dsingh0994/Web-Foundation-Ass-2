@@ -1,0 +1,217 @@
+/*Assignment 2 It Web Foundation .
+
+Student Name = Deepak Singh.
+Student Number =8260994*/
+
+
+
+/*Here start with set family font and its color*/
+body {
+    font-family: " Verdana, Arial, Helvetica, sans-serif";
+    }
+    a {font-weight: bold;
+    color: orange;
+}
+/*Formatting the header h2*/
+header h2 {
+	font-size: 230%;
+	font-style: italic;
+	color: orange;
+	text-indent: 25px;
+    text-shadow: 2px 2px 2px black;}
+   /*for header h3*/
+    header h3 {
+        font-size: 125%;
+        text-indent: 25px;}
+    
+    :root {
+
+    /*we are going to add image in our background*/    
+    background: url("bats.gif");
+    background: -webkit-image-set(url("bats.gif") 1x);
+    }
+    
+   body {
+    font-size: bold;
+    
+
+    
+    width: 800px;
+    margin: auto;
+    
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow:  4px 4px #000;
+    
+    flex-flow: row wrap;
+    }
+    
+   header {
+    border-bottom: 1px solid #000;
+    background: linear-gradient(45deg, #FFF, #FF9800 75%, #000);
+    
+    flex: 100%;
+    }
+    
+    header img {
+    float: left;
+    }
+    
+    header h1,
+    header h2,
+    header img {
+    margin: 8px;
+    }
+    
+    header nav  {
+    clear: both;
+    
+    text-align: center;
+    
+    color:white;
+    background:black;
+    }
+    
+    header ul   {
+    position: relative;
+    }
+    
+    header  ul {
+    position: absolute;
+    top: 100%;
+    
+    display: none;
+    
+    width: 160px;
+    
+    background:black;
+    
+    flex-flow: column;
+    }
+    header
+
+      nav
+        
+ ul
+          
+ li :hover>
+                
+ u
+    {display: flex;
+    }
+    
+    header nav a {
+    color:white;
+    }
+    
+    header nav a:hover {
+    background: #9E9E9E;
+    }
+    
+    nav ul {
+    display: flex;
+    
+    list-style: none;
+    }
+    
+script  {
+    flex: 1;
+    }
+    
+     a {
+    font-weight: 500;
+    
+    display: block;
+    
+    padding: 8px;
+    
+    text-decoration: none;
+    }
+    
+    body > script {
+    box-sizing: border-box;
+    padding: 16px;
+    
+    flex:  160px;
+    }
+    
+    body > nav ul {
+    flex-flow: column;
+    }
+    
+    body > script {
+    margin: 4px 0;
+    }
+    
+    body > script {
+    background:orange;
+    border: 2px solid black;
+    color:black;
+    }
+    
+    main {
+    padding: 30px;
+    
+    flex: 1;
+    }
+   
+    
+     a {
+    font-weight: 800;
+    
+    color:orange;
+    }
+    /* codes to set the link when we take cusor to the link it will turn into green color*/
+   a:link,a:visited{color:orange;}
+    a:hover,a:focus{color:green;}
+
+    footer {
+    font-size: 0.875rem;
+    
+    padding: 16px;
+    
+    text-align: center;
+    /* linear gradient to cover the header and footer*/
+    border-top: 1px solid black;
+    background: linear-gradient(45deg,black, orange 25%, white);
+    
+    flex: 100%;
+    }
+    
+    header{
+    font-weight: 800;
+    
+    margin: 0;
+    }
+    
+    h1 {
+    font-size: 180%;}
+    h1:first-letter {
+        font-size: 250%;
+        }
+    
+    
+    h2 {
+    font-size: 230%; 
+   
+    }
+    
+    h3 {
+    font-size: 150%;
+   
+    }
+    
+    ul {
+        line-height: 1.5;
+    }
+    ul {
+ 
+    margin: 0;
+    padding: 0;
+    }
+  
+    
+    .color{
+    color:orange
+    ;
+    }
